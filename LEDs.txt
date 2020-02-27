@@ -1,5 +1,6 @@
 LEDs de 30mA
 V_bateria de 3V
+V_led de 2V
 
-V = R*I portanto R = V/I
-R = 3/(30*10^(-3)) = 100
+R = V/I onde V = V_bateria - V_led
+R = (3-2)/(30*10^(-3)) = 33
