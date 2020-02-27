@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\workspace\BKR01AT\BKR01AT\BKR01AT.sch</source>
-    <date>27/02/2020 11:02:59</date>
+    <date>27/02/2020 11:24:50</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,6 +21,7 @@
   <components>
     <comp ref="C4">
       <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -28,6 +29,7 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -35,6 +37,7 @@
     </comp>
     <comp ref="L1">
       <value>15nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -42,6 +45,7 @@
     </comp>
     <comp ref="L2">
       <value>10nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -49,6 +53,7 @@
     </comp>
     <comp ref="C6">
       <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -56,6 +61,7 @@
     </comp>
     <comp ref="C9">
       <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,6 +69,7 @@
     </comp>
     <comp ref="Y2">
       <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -70,6 +77,7 @@
     </comp>
     <comp ref="C11">
       <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -77,6 +85,7 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,6 +93,7 @@
     </comp>
     <comp ref="C7">
       <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -91,6 +101,7 @@
     </comp>
     <comp ref="C5">
       <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,6 +109,7 @@
     </comp>
     <comp ref="C8">
       <value>12pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -105,6 +117,7 @@
     </comp>
     <comp ref="Y1">
       <value>32MHz</value>
+      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -112,6 +125,7 @@
     </comp>
     <comp ref="C10">
       <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,6 +133,7 @@
     </comp>
     <comp ref="C12">
       <value>N.C.</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -272,6 +287,7 @@
     </comp>
     <comp ref="C13">
       <value>0.8pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -279,6 +295,7 @@
     </comp>
     <comp ref="L3">
       <value>3.9nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -286,6 +303,7 @@
     </comp>
     <comp ref="C17">
       <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -293,6 +311,7 @@
     </comp>
     <comp ref="C16">
       <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -310,6 +329,7 @@
     </comp>
     <comp ref="C3">
       <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -328,6 +348,7 @@
     </comp>
     <comp ref="C2">
       <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -355,6 +376,7 @@
     </comp>
     <comp ref="C15">
       <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -362,6 +384,7 @@
     </comp>
     <comp ref="L5">
       <value>2.7nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -369,6 +392,7 @@
     </comp>
     <comp ref="L4">
       <value>3.3nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
