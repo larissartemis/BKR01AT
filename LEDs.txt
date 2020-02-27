@@ -1,0 +1,5 @@
+LEDs de 30mA
+V_bateria de 3V
+
+V = R*I portanto R = V/I
+R = 3/(30*10^(-3)) = 100
