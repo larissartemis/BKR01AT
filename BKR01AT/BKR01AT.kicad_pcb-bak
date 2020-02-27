@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 9)
-    (tracks 2)
+    (tracks 0)
     (zones 0)
     (modules 44)
     (nets 55)
@@ -30,17 +30,15 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.1524)
-    (user_trace_width 0.1524)
-    (user_trace_width 0.3048)
+    (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.1)
+    (trace_min 0.2)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -1376,7 +1374,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E58CED4)
-    (at 144.1553 92.2655 180)
+    (at 140.0937 94.1705)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E53381E)
@@ -1398,9 +1396,9 @@
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.1))
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.1))
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 Earth))
-    (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 VDD))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1919,8 +1917,5 @@
   (gr_line (start 121.4755 58.9407) (end 177.558329 58.940329) (layer Edge.Cuts) (width 0.12))
   (gr_line (start 119.5197 116.9797) (end 119.519329 60.896871) (layer Edge.Cuts) (width 0.12))
   (gr_line (start 177.5587 118.9355) (end 121.475871 118.935871) (layer Edge.Cuts) (width 0.12))
-
-  (segment (start 144.6439 92.2691) (end 144.6403 92.2655) (width 0.1524) (layer F.Cu) (net 2))
-  (segment (start 147.1139 92.2691) (end 144.6439 92.2691) (width 0.1524) (layer F.Cu) (net 2))
 
 )

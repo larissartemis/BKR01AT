@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\workspace\BKR01AT\BKR01AT\BKR01AT.sch</source>
-    <date>27/02/2020 19:01:20</date>
+    <date>27/02/2020 19:19:33</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -149,6 +149,7 @@
     </comp>
     <comp ref="SW1">
       <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">PTS636 SL43 LFS</field>
@@ -167,6 +168,7 @@
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">PTS636 SL43 LFS</field>
@@ -185,6 +187,7 @@
     </comp>
     <comp ref="SW2">
       <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">PTS636 SL43 LFS</field>
@@ -203,6 +206,7 @@
     </comp>
     <comp ref="D2">
       <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">150060VS75000</field>
@@ -221,6 +225,7 @@
     </comp>
     <comp ref="D3">
       <value>Red LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">150060RS75000</field>
@@ -239,6 +244,7 @@
     </comp>
     <comp ref="D1">
       <value>Green LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Part Number">150060VS75000</field>
@@ -257,6 +263,7 @@
     </comp>
     <comp ref="FID2">
       <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -272,6 +279,7 @@
     </comp>
     <comp ref="FID1">
       <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,6 +356,7 @@
     </comp>
     <comp ref="MCU1">
       <value>nRF52832-QFAB-R</value>
+      <footprint>Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm</footprint>
       <fields>
         <field name="Part Number">nRF52832-QFAB-R</field>
       </fields>

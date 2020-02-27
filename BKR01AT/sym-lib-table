@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name nrf52832)(type Legacy)(uri C:/Users/laris/Documents/CI/BKR01AT/nrf52832-qfab-r.lib)(options "")(descr ""))
   (lib (name BKR01AT-rescue)(type Legacy)(uri ${KIPRJMOD}/BKR01AT-rescue.lib)(options "")(descr ""))
   (lib (name nrf52832-qfab-r)(type Legacy)(uri ${KIPRJMOD}/nrf52832-qfab-r.lib)(options "")(descr ""))
 )
