@@ -2235,7 +2235,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E58D637)
-    (at 145.6285 71.2216 180)
+    (at 144.676 71.2978 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5E6BE474)
@@ -2303,7 +2303,7 @@
   )
 
   (module Battery:BatteryHolder_MPD_BC2003_1x2032 (layer F.Cu) (tedit 5D9C8106) (tstamp 5E58AE96)
-    (at 160.8201 73.3044)
+    (at 160.9598 69.7738)
     (descr http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf)
     (tags "BC2003 CR2032 2032 Battery Holder")
     (path /5E6BC499)
