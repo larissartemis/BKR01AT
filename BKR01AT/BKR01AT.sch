@@ -523,11 +523,11 @@ Wire Wire Line
 Connection ~ 8055 5040
 Wire Wire Line
 	8055 5040 8055 5050
-Text GLabel 3755 4535 3    50   Input ~ 0
-b_RST
 Text GLabel 3555 4535 3    50   Input ~ 0
-b_F1
+b_RST
 Text GLabel 3655 4535 3    50   Input ~ 0
+b_F1
+Text GLabel 3755 4535 3    50   Input ~ 0
 b_F2
 Wire Wire Line
 	3555 4535 3555 4380
@@ -699,8 +699,6 @@ Wire Wire Line
 	1130 7275 1130 7285
 Wire Wire Line
 	1130 7275 1435 7275
-Text GLabel 4880 3680 2    50   Input ~ 0
-tag_RST
 Text GLabel 4875 3780 2    50   Input ~ 0
 tag_SWDIO
 Text GLabel 4875 3880 2    50   Input ~ 0
@@ -761,9 +759,9 @@ Text GLabel 4055 2225 1    50   Input ~ 0
 ac_CS
 Text GLabel 3955 2225 1    50   Input ~ 0
 ac_SDO_SAO
-Text GLabel 4155 2225 1    50   Input ~ 0
-ac_INT2
 Text GLabel 4255 2225 1    50   Input ~ 0
+ac_INT2
+Text GLabel 4155 2225 1    50   Input ~ 0
 ac_INT1
 Text GLabel 3855 2225 1    50   Input ~ 0
 ac_SDA_SDI_SDO
@@ -774,9 +772,6 @@ NoConn ~ 3855 4380
 NoConn ~ 3955 4380
 NoConn ~ 4055 4380
 NoConn ~ 4155 4380
-NoConn ~ 4255 4380
-Wire Wire Line
-	4880 3680 4755 3680
 $Comp
 L Device:C_Small C13
 U 1 1 5E8E8F58
@@ -1293,4 +1288,9 @@ F 3 "" H 9650 4685 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5045 6905
+Wire Wire Line
+	4880 3680 4755 3680
+Text GLabel 4880 3680 2    50   Input ~ 0
+tag_RST
+NoConn ~ 4255 4380
 $EndSCHEMATC
