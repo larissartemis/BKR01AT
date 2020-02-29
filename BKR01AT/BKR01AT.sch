@@ -31,17 +31,6 @@ Wire Wire Line
 Wire Wire Line
 	2605 1930 3155 1930
 $Comp
-L power:Earth #PWR05
-U 1 1 5E522458
-P 2605 2230
-F 0 "#PWR05" H 2605 1980 50  0001 C CNN
-F 1 "Earth" H 2605 2080 50  0001 C CNN
-F 2 "" H 2605 2230 50  0001 C CNN
-F 3 "~" H 2605 2230 50  0001 C CNN
-	1    2605 2230
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR04
 U 1 1 5E522937
 P 2605 1930
@@ -92,23 +81,11 @@ Wire Wire Line
 	3255 1830 3055 1830
 Wire Wire Line
 	3055 1830 3055 1780
-$Comp
-L power:Earth #PWR01
-U 1 1 5E527DA1
-P 3555 1530
-F 0 "#PWR01" H 3555 1280 50  0001 C CNN
-F 1 "Earth" H 3555 1380 50  0001 C CNN
-F 2 "" H 3555 1530 50  0001 C CNN
-F 3 "~" H 3555 1530 50  0001 C CNN
-	1    3555 1530
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3455 1530 3555 1530
 Connection ~ 3355 1330
 Wire Wire Line
 	3355 1330 3055 1330
-Connection ~ 3555 1530
 Wire Wire Line
 	3555 1330 3355 1330
 $Comp
@@ -120,17 +97,6 @@ F 1 "100nF" H 2097 2335 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2005 2380 50  0001 C CNN
 F 3 "~" H 2005 2380 50  0001 C CNN
 	1    2005 2380
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR07
-U 1 1 5E52A1A9
-P 2005 2480
-F 0 "#PWR07" H 2005 2230 50  0001 C CNN
-F 1 "Earth" H 2005 2330 50  0001 C CNN
-F 2 "" H 2005 2480 50  0001 C CNN
-F 3 "~" H 2005 2480 50  0001 C CNN
-	1    2005 2480
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -154,17 +120,6 @@ Wire Wire Line
 	1505 2730 1355 2730
 Wire Wire Line
 	1055 2730 1155 2730
-$Comp
-L power:Earth #PWR013
-U 1 1 5E52D0C2
-P 1055 3130
-F 0 "#PWR013" H 1055 2880 50  0001 C CNN
-F 1 "Earth" H 1055 2980 50  0001 C CNN
-F 2 "" H 1055 3130 50  0001 C CNN
-F 3 "~" H 1055 3130 50  0001 C CNN
-	1    1055 3130
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Crystal_Small Y2
 U 1 1 5E52CDA4
@@ -193,7 +148,6 @@ Wire Wire Line
 	1155 3130 1055 3130
 Wire Wire Line
 	1055 2730 1055 3130
-Connection ~ 1055 3130
 Wire Wire Line
 	1505 3130 1505 3030
 Wire Wire Line
@@ -247,17 +201,6 @@ F 3 "" H 4855 2380 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR08
-U 1 1 5E534FB2
-P 4855 2580
-F 0 "#PWR08" H 4855 2330 50  0001 C CNN
-F 1 "Earth" H 4855 2430 50  0001 C CNN
-F 2 "" H 4855 2580 50  0001 C CNN
-F 3 "~" H 4855 2580 50  0001 C CNN
-	1    4855 2580
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C7
 U 1 1 5E535504
 P 4855 2480
@@ -284,17 +227,6 @@ F 3 "~" H 5955 2280 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5755 2280 5855 2280
-$Comp
-L power:Earth #PWR09
-U 1 1 5E537D62
-P 6155 2680
-F 0 "#PWR09" H 6155 2430 50  0001 C CNN
-F 1 "Earth" H 6155 2530 50  0001 C CNN
-F 2 "" H 6155 2680 50  0001 C CNN
-F 3 "~" H 6155 2680 50  0001 C CNN
-	1    6155 2680
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 5E537D6E
@@ -326,28 +258,16 @@ Wire Wire Line
 Wire Wire Line
 	5755 2280 5405 2280
 Connection ~ 5755 2280
-$Comp
-L power:Earth #PWR014
-U 1 1 5E53E325
-P 6610 3310
-F 0 "#PWR014" H 6610 3060 50  0001 C CNN
-F 1 "Earth" H 6610 3160 50  0001 C CNN
-F 2 "" H 6610 3310 50  0001 C CNN
-F 3 "~" H 6610 3310 50  0001 C CNN
-	1    6610 3310
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5405 2280 5405 2880
 Wire Wire Line
 	5405 2880 4755 2880
 Wire Wire Line
-	6155 2680 6155 2280
+	6155 2680 6155 2675
 Wire Wire Line
 	6155 2280 6055 2280
 Wire Wire Line
 	6055 2680 6155 2680
-Connection ~ 6155 2680
 Wire Wire Line
 	5755 2680 5505 2680
 Wire Wire Line
@@ -383,7 +303,6 @@ Wire Wire Line
 	6610 2960 6510 2960
 Wire Wire Line
 	6510 3310 6610 3310
-Connection ~ 6610 3310
 $Comp
 L Device:R_Small_US R4
 U 1 1 5E5CCEF7
@@ -407,19 +326,6 @@ F 4 "PTS636 SL43 LFS" H 9650 5245 50  0001 C CNN "Part Number"
 	1    9650 5245
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR021
-U 1 1 5E5CCF0A
-P 9650 5470
-F 0 "#PWR021" H 9650 5220 50  0001 C CNN
-F 1 "Earth" H 9650 5320 50  0001 C CNN
-F 2 "" H 9650 5470 50  0001 C CNN
-F 3 "~" H 9650 5470 50  0001 C CNN
-	1    9650 5470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 5470 9650 5445
 Wire Wire Line
 	2555 4380 3155 4380
 Wire Wire Line
@@ -447,19 +353,6 @@ F 4 "PTS636 SL43 LFS" H 8880 5265 50  0001 C CNN "Part Number"
 	1    8880 5265
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR023
-U 1 1 5E64A32B
-P 8880 5490
-F 0 "#PWR023" H 8880 5240 50  0001 C CNN
-F 1 "Earth" H 8880 5340 50  0001 C CNN
-F 2 "" H 8880 5490 50  0001 C CNN
-F 3 "~" H 8880 5490 50  0001 C CNN
-	1    8880 5490
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8880 5490 8880 5465
 Wire Wire Line
 	8880 4760 8880 4705
 $Comp
@@ -485,19 +378,6 @@ F 4 "PTS636 SL43 LFS" H 8055 5250 50  0001 C CNN "Part Number"
 	1    8055 5250
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR022
-U 1 1 5E64D545
-P 8055 5475
-F 0 "#PWR022" H 8055 5225 50  0001 C CNN
-F 1 "Earth" H 8055 5325 50  0001 C CNN
-F 2 "" H 8055 5475 50  0001 C CNN
-F 3 "~" H 8055 5475 50  0001 C CNN
-	1    8055 5475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8055 5475 8055 5450
 Wire Wire Line
 	8880 5065 8880 5045
 Text GLabel 7815 5040 0    50   Input ~ 0
@@ -616,17 +496,6 @@ Wire Wire Line
 	8805 3025 8805 3085
 Wire Wire Line
 	8065 3050 8065 3110
-$Comp
-L power:Earth #PWR017
-U 1 1 5E532DAA
-P 2555 4580
-F 0 "#PWR017" H 2555 4330 50  0001 C CNN
-F 1 "Earth" H 2555 4430 50  0001 C CNN
-F 2 "" H 2555 4580 50  0001 C CNN
-F 3 "~" H 2555 4580 50  0001 C CNN
-	1    2555 4580
-	1    0    0    -1  
-$EndComp
 Text GLabel 9615 3555 3    50   Input ~ 0
 led_ON_OFF
 Text GLabel 8805 3570 3    50   Input ~ 0
@@ -662,17 +531,6 @@ F 3 "" H 1135 7060 50  0001 C CNN
 	1    1135 7060
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:Earth #PWR030
-U 1 1 5E720BAF
-P 1130 7285
-F 0 "#PWR030" H 1130 7035 50  0001 C CNN
-F 1 "Earth" H 1130 7135 50  0001 C CNN
-F 2 "" H 1130 7285 50  0001 C CNN
-F 3 "~" H 1130 7285 50  0001 C CNN
-	1    1130 7285
-	1    0    0    -1  
-$EndComp
 Text GLabel 1435 7175 0    50   Input ~ 0
 tag_RST
 Text GLabel 1935 7075 2    50   Input ~ 0
@@ -695,10 +553,6 @@ F 3 "~" H 1635 7175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1135 7075 1435 7075
-Wire Wire Line
-	1130 7275 1130 7285
-Wire Wire Line
-	1130 7275 1435 7275
 Text GLabel 4875 3780 2    50   Input ~ 0
 tag_SWDIO
 Text GLabel 4875 3880 2    50   Input ~ 0
@@ -785,17 +639,6 @@ F 3 "~" H 5455 3665 50  0001 C CNN
 $EndComp
 Text GLabel 5900 3380 2    50   Input ~ 0
 antenna
-$Comp
-L power:Earth #PWR015
-U 1 1 5E8D8E37
-P 5455 3800
-F 0 "#PWR015" H 5455 3550 50  0001 C CNN
-F 1 "Earth" H 5455 3650 50  0001 C CNN
-F 2 "" H 5455 3800 50  0001 C CNN
-F 3 "~" H 5455 3800 50  0001 C CNN
-	1    5455 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4755 3180 6310 3180
 Wire Wire Line
@@ -814,8 +657,6 @@ Wire Wire Line
 	6270 3765 5455 3765
 Wire Wire Line
 	4755 3280 6270 3280
-Wire Wire Line
-	5455 3765 5455 3800
 $Comp
 L Device:L_Small L3
 U 1 1 5E9E9512
@@ -827,7 +668,6 @@ F 3 "~" H 5650 3380 50  0001 C CNN
 	1    5650 3380
 	0    -1   -1   0   
 $EndComp
-Connection ~ 5455 3765
 Wire Wire Line
 	5455 3380 5455 3565
 Wire Wire Line
@@ -903,9 +743,6 @@ Connection ~ 6115 6305
 Wire Wire Line
 	5495 6305 6115 6305
 Wire Wire Line
-	6115 6505 5920 6505
-Connection ~ 6115 6505
-Wire Wire Line
 	6115 6205 5495 6205
 Connection ~ 5545 6840
 $Comp
@@ -922,16 +759,9 @@ $EndComp
 Wire Wire Line
 	5545 6840 5730 6840
 Wire Wire Line
-	6120 6840 6120 6845
-Connection ~ 6120 6840
-Wire Wire Line
-	6120 6505 6120 6840
-Wire Wire Line
 	5930 6840 6120 6840
 Wire Wire Line
 	5545 6505 5720 6505
-Wire Wire Line
-	6120 6505 6115 6505
 $Comp
 L Device:C_Small C17
 U 1 1 5E8175B3
@@ -958,28 +788,6 @@ F 2 "Capacitor_SMD:C_0402_1005Metric" H 5820 6505 50  0001 C CNN
 F 3 "~" H 5820 6505 50  0001 C CNN
 	1    5820 6505
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:Earth #PWR027
-U 1 1 5E7D824E
-P 6120 6845
-F 0 "#PWR027" H 6120 6595 50  0001 C CNN
-F 1 "Earth" H 6120 6695 50  0001 C CNN
-F 2 "" H 6120 6845 50  0001 C CNN
-F 3 "~" H 6120 6845 50  0001 C CNN
-	1    6120 6845
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR024
-U 1 1 5E78A4B2
-P 4655 5700
-F 0 "#PWR024" H 4655 5450 50  0001 C CNN
-F 1 "Earth" H 4655 5550 50  0001 C CNN
-F 2 "" H 4655 5700 50  0001 C CNN
-F 3 "~" H 4655 5700 50  0001 C CNN
-	1    4655 5700
-	1    0    0    -1  
 $EndComp
 $Comp
 L Sensor_Motion:LIS2DHTR U1
@@ -1011,7 +819,6 @@ Wire Wire Line
 	4845 5615 4945 5615
 Text GLabel 8770 1330 0    50   Input ~ 0
 VDD
-Connection ~ 9295 1700
 Wire Wire Line
 	9295 1700 9295 1630
 Wire Wire Line
@@ -1022,17 +829,6 @@ Wire Wire Line
 	8770 1330 8770 1375
 Wire Wire Line
 	9295 1330 8770 1330
-$Comp
-L power:Earth #PWR02
-U 1 1 5E6C4346
-P 9295 1700
-F 0 "#PWR02" H 9295 1450 50  0001 C CNN
-F 1 "Earth" H 9295 1550 50  0001 C CNN
-F 2 "" H 9295 1700 50  0001 C CNN
-F 3 "~" H 9295 1700 50  0001 C CNN
-	1    9295 1700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 5E6BE474
@@ -1073,8 +869,6 @@ Wire Wire Line
 Connection ~ 1810 5905
 Wire Wire Line
 	1810 5950 1810 5905
-Wire Wire Line
-	1810 6210 1810 6150
 Wire Wire Line
 	2345 5905 2345 5895
 Wire Wire Line
@@ -1117,17 +911,6 @@ F 2 "Inductor_SMD:L_0402_1005Metric" H 2050 5905 50  0001 C CNN
 F 3 "~" H 2050 5905 50  0001 C CNN
 	1    2050 5905
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:Earth #PWR025
-U 1 1 5E8D851F
-P 1810 6210
-F 0 "#PWR025" H 1810 5960 50  0001 C CNN
-F 1 "Earth" H 1810 6060 50  0001 C CNN
-F 2 "" H 1810 6210 50  0001 C CNN
-F 3 "~" H 1810 6210 50  0001 C CNN
-	1    1810 6210
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Antenna AE1
@@ -1293,4 +1076,211 @@ Wire Wire Line
 Text GLabel 4880 3680 2    50   Input ~ 0
 tag_RST
 NoConn ~ 4255 4380
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A0B64
+P 2005 2480
+F 0 "#PWR?" H 2005 2230 50  0001 C CNN
+F 1 "GND" H 2010 2307 50  0000 C CNN
+F 2 "" H 2005 2480 50  0001 C CNN
+F 3 "" H 2005 2480 50  0001 C CNN
+	1    2005 2480
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A2511
+P 1055 3130
+F 0 "#PWR?" H 1055 2880 50  0001 C CNN
+F 1 "GND" H 1060 2957 50  0000 C CNN
+F 2 "" H 1055 3130 50  0001 C CNN
+F 3 "" H 1055 3130 50  0001 C CNN
+	1    1055 3130
+	1    0    0    -1  
+$EndComp
+Connection ~ 1055 3130
+$Comp
+L power:GND #PWR?
+U 1 1 5E5A8B87
+P 2605 2230
+F 0 "#PWR?" H 2605 1980 50  0001 C CNN
+F 1 "GND" H 2610 2057 50  0000 C CNN
+F 2 "" H 2605 2230 50  0001 C CNN
+F 3 "" H 2605 2230 50  0001 C CNN
+	1    2605 2230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5AE984
+P 3555 1530
+F 0 "#PWR?" H 3555 1280 50  0001 C CNN
+F 1 "GND" H 3560 1357 50  0000 C CNN
+F 2 "" H 3555 1530 50  0001 C CNN
+F 3 "" H 3555 1530 50  0001 C CNN
+	1    3555 1530
+	1    0    0    -1  
+$EndComp
+Connection ~ 3555 1530
+$Comp
+L power:GND #PWR?
+U 1 1 5E5B549E
+P 4855 2580
+F 0 "#PWR?" H 4855 2330 50  0001 C CNN
+F 1 "GND" H 4860 2407 50  0000 C CNN
+F 2 "" H 4855 2580 50  0001 C CNN
+F 3 "" H 4855 2580 50  0001 C CNN
+	1    4855 2580
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5BB8C6
+P 6155 2675
+F 0 "#PWR?" H 6155 2425 50  0001 C CNN
+F 1 "GND" H 6160 2502 50  0000 C CNN
+F 2 "" H 6155 2675 50  0001 C CNN
+F 3 "" H 6155 2675 50  0001 C CNN
+	1    6155 2675
+	1    0    0    -1  
+$EndComp
+Connection ~ 6155 2675
+Wire Wire Line
+	6155 2675 6155 2280
+$Comp
+L power:GND #PWR?
+U 1 1 5E5C2047
+P 6610 3310
+F 0 "#PWR?" H 6610 3060 50  0001 C CNN
+F 1 "GND" H 6615 3137 50  0000 C CNN
+F 2 "" H 6610 3310 50  0001 C CNN
+F 3 "" H 6610 3310 50  0001 C CNN
+	1    6610 3310
+	1    0    0    -1  
+$EndComp
+Connection ~ 6610 3310
+$Comp
+L power:GND #PWR?
+U 1 1 5E5C8A52
+P 5455 3765
+F 0 "#PWR?" H 5455 3515 50  0001 C CNN
+F 1 "GND" H 5460 3592 50  0000 C CNN
+F 2 "" H 5455 3765 50  0001 C CNN
+F 3 "" H 5455 3765 50  0001 C CNN
+	1    5455 3765
+	1    0    0    -1  
+$EndComp
+Connection ~ 5455 3765
+$Comp
+L power:GND #PWR?
+U 1 1 5E5CFC29
+P 2555 4580
+F 0 "#PWR?" H 2555 4330 50  0001 C CNN
+F 1 "GND" H 2560 4407 50  0000 C CNN
+F 2 "" H 2555 4580 50  0001 C CNN
+F 3 "" H 2555 4580 50  0001 C CNN
+	1    2555 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5D5D2B
+P 1810 6150
+F 0 "#PWR?" H 1810 5900 50  0001 C CNN
+F 1 "GND" H 1815 5977 50  0000 C CNN
+F 2 "" H 1810 6150 50  0001 C CNN
+F 3 "" H 1810 6150 50  0001 C CNN
+	1    1810 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1130 7275 1435 7275
+$Comp
+L power:GND #PWR?
+U 1 1 5E5DBF5E
+P 1130 7275
+F 0 "#PWR?" H 1130 7025 50  0001 C CNN
+F 1 "GND" H 1135 7102 50  0000 C CNN
+F 2 "" H 1130 7275 50  0001 C CNN
+F 3 "" H 1130 7275 50  0001 C CNN
+	1    1130 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5E3C36
+P 4655 5700
+F 0 "#PWR?" H 4655 5450 50  0001 C CNN
+F 1 "GND" H 4660 5527 50  0000 C CNN
+F 2 "" H 4655 5700 50  0001 C CNN
+F 3 "" H 4655 5700 50  0001 C CNN
+	1    4655 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5E9852
+P 6120 6840
+F 0 "#PWR?" H 6120 6590 50  0001 C CNN
+F 1 "GND" H 6125 6667 50  0000 C CNN
+F 2 "" H 6120 6840 50  0001 C CNN
+F 3 "" H 6120 6840 50  0001 C CNN
+	1    6120 6840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6120 6505 6115 6505
+Wire Wire Line
+	6115 6505 5920 6505
+Connection ~ 6115 6505
+Wire Wire Line
+	6120 6505 6120 6840
+Connection ~ 6120 6840
+Wire Wire Line
+	6120 6840 6120 6845
+$Comp
+L power:GND #PWR?
+U 1 1 5E5F58A4
+P 8055 5450
+F 0 "#PWR?" H 8055 5200 50  0001 C CNN
+F 1 "GND" H 8060 5277 50  0000 C CNN
+F 2 "" H 8055 5450 50  0001 C CNN
+F 3 "" H 8055 5450 50  0001 C CNN
+	1    8055 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5FC230
+P 8880 5465
+F 0 "#PWR?" H 8880 5215 50  0001 C CNN
+F 1 "GND" H 8885 5292 50  0000 C CNN
+F 2 "" H 8880 5465 50  0001 C CNN
+F 3 "" H 8880 5465 50  0001 C CNN
+	1    8880 5465
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6073DF
+P 9650 5445
+F 0 "#PWR?" H 9650 5195 50  0001 C CNN
+F 1 "GND" H 9655 5272 50  0000 C CNN
+F 2 "" H 9650 5445 50  0001 C CNN
+F 3 "" H 9650 5445 50  0001 C CNN
+	1    9650 5445
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E60CB7F
+P 9295 1700
+F 0 "#PWR?" H 9295 1450 50  0001 C CNN
+F 1 "GND" H 9300 1527 50  0000 C CNN
+F 2 "" H 9295 1700 50  0001 C CNN
+F 3 "" H 9295 1700 50  0001 C CNN
+	1    9295 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9295 1700
 $EndSCHEMATC
